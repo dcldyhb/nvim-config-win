@@ -1,0 +1,28 @@
+# --- 临时文件与日志 ---
+*.swp
+*.swo
+*.log
+undo/
+backup/
+tags
+doc/tags
+
+# --- 测试与调试 ---
+tt.*
+foo.*
+debug/
+.repro/
+.tests/
+
+# --- 数据与本地缓存 ---
+# 如果你在配置目录里放了存数据的文件夹
+data/
+# 某些插件生成的本地数据库
+*.db
+
+# --- macOS 系统文件 ---
+.DS_Store
+
+# --- 重要提示 ---
+# 不要忽略以下文件：
+# !lazy-lock.json  <-- 确保这个文件会被上传

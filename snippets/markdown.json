@@ -38,7 +38,7 @@
   },
   "Inline Equation": {
     "prefix": "eqi",
-    "body": "\\$ $1 \\$ $0",
+    "body": "\\$$1\\$ $0",
     "description": "插入行内公式 $...$"
   },
   "Inline Equation with Displaystyle": {
@@ -48,11 +48,7 @@
   },
   "Equation": {
     "prefix": "eq",
-    "body": [
-      "\\$\\$",
-      "$0",
-      "\\$\\$"
-    ],
+    "body": ["\\$\\$", "$0", "\\$\\$"],
     "description": "插入标准居中公式"
   },
   "Summation": {

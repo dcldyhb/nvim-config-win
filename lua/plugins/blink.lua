@@ -30,9 +30,8 @@ return {
     completion = {
       list = {
         selection = {
-          -- 重要：开启 preselect。
-          -- 这样菜单一出来，第一项就是被选中状态，你按 Tab 就能直接 accept 第一项。
-          preselect = true,
+          -- 关闭 preselect，使得需要手动进入代码补全状态，优化在代码片段中的输入体验
+          preselect = false,
           -- 开启自动插入，增强视觉反馈
           auto_insert = true,
         },

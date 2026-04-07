@@ -35,6 +35,7 @@ vim.api.nvim_create_autocmd("VimEnter", {
 
 -- 4. Neovide 专属视觉配置
 if vim.g.neovide then
+  vim.g.neovide_theme = "dark"
   vim.g.neovide_scale_factor = 0.8
   vim.g.neovide_opacity = 1.0
   vim.g.neovide_window_blurred = true
